@@ -2,6 +2,7 @@
   "name": "motion-library",
   "private": true,
   "type": "module",
+  "author": "jasonGao",
   "scripts": {
     "dev": "node scripts/server.mjs",
     "build:pages": "node scripts/build-pages.mjs",
