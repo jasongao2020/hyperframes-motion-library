@@ -4,19 +4,17 @@
 
 ## 作者
 
-这个项目由 **栗噔噔** 创建。
+这个项目由 **jasonGao** 维护。
 
-小红书、抖音、视频号、公众号、B站、X、YouTube、即刻都是同一个 ID：**栗噔噔**。
+## 致谢
 
-如果这个项目对你有帮助，欢迎关注 **栗噔噔**，也欢迎给这个 GitHub 项目点一个 Star，让更多做视频的人看到这套工作流：
-
-https://github.com/nutllwhy/hyperframes-motion-library
+本项目基于 [nutllwhy/hyperframes-motion-library](https://github.com/nutllwhy/hyperframes-motion-library) Fork 而来。感谢原作者 **栗噔噔** 建立的工作流和模板体系。
 
 ## 在线演示
 
 GitHub Pages 演示页：
 
-https://nutllwhy.github.io/hyperframes-motion-library/
+https://jasongao2020.github.io/hyperframes-motion-library/
 
 演示页可以查看模板库、使用指引和每个动效的样片。因为 GitHub Pages 只能托管静态页面，在线演示页不负责云端渲染；如果要修改文案、数据并生成新视频，请克隆项目到本地运行。
 
@@ -31,7 +29,7 @@ https://nutllwhy.github.io/hyperframes-motion-library/
 ## 使用
 
 ```bash
-git clone https://github.com/nutllwhy/hyperframes-motion-library.git
+git clone https://github.com/jasongao2020/hyperframes-motion-library.git
 cd hyperframes-motion-library
 npm install
 npm run dev
@@ -66,7 +64,7 @@ npm run render -- metric-pulse templates/metric-pulse/presets/default.json
 4. `catalog.json`
 5. `templates/` 下已有模板
 
-更多提示词和入库要求见 `AGENT_GUIDE.md`。如果你基于这个项目长出了自己的动效库，也欢迎回到原项目点 Star 支持一下：
+更多提示词和入库要求见 `AGENT_GUIDE.md`。如果你基于这个项目长出了自己的动效库，也欢迎给原项目点 Star 支持一下：
 
 https://github.com/nutllwhy/hyperframes-motion-library
 
@@ -81,4 +79,4 @@ https://github.com/nutllwhy/hyperframes-motion-library
 
 当前模板库已经覆盖数据可视化、透明叠加和知识讲解三类动效。发布前的模板盘点见 `references/上线前模板盘点.md`。
 
-之后每次新增动效，都沿用“模板源码 + 变量声明 + 默认预设 + 目录登记 + 校验”的结构，系统会自然长成可搜索、可复用的动效库。
+之后每次新增动效，都沿用"模板源码 + 变量声明 + 默认预设 + 目录登记 + 校验"的结构，系统会自然长成可搜索、可复用的动效库。
